@@ -1,7 +1,12 @@
 import React from "react";
+import TableGrid from "./Components/Table";
 
 function App() {
-  return <div className="App">Saurabh Sharma</div>;
+  return (
+    <div className="App">
+      <TableGrid />
+    </div>
+  );
 }
 
 export default App;
